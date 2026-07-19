@@ -69,7 +69,7 @@ android {
     defaultConfig {
         applicationId = "io.nekohasekai.sfa"
         minSdk = 21
-        targetSdk = 35
+        targetSdk = 36
         versionCode = getVersionProps("VERSION_CODE").toInt()
         versionName = getVersionProps("VERSION_NAME")
         base.archivesName.set("SFA-${versionName}")
